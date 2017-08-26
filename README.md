@@ -26,7 +26,6 @@ Substitute ios for android if not on a Mac.
 
 ### install Native Audio
 
-
 cordova plugin add cordova-plugin-console
 cordova plugin add cordova-custom-config
 cordova plugin add cordova-plugin-device
