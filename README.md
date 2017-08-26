@@ -26,6 +26,7 @@ Substitute ios for android if not on a Mac.
 
 ### install Native Audio
 
+```
 cordova plugin add cordova-plugin-console
 cordova plugin add cordova-custom-config
 cordova plugin add cordova-plugin-device
@@ -35,14 +36,17 @@ cordova plugin add android-camera-permission
 cordova plugin add cordova-plugin-android-permissions@0.10.0
 cordova plugin add https://github.com/alongubkin/audiotoggle.git
 cordova plugin add cordova-plugin-audioinput
+```
 
-
-For iOS only:
+**For iOS only:**
+```
 cordova plugin add cordova-plugin-iosrtc
-
-For Android only:
+```
+**For Android only:**
+```
 cordova plugin add cordova-plugin-crosswalk-webview
 cordova plugin add android-camera-permission
 cordova plugin add cordova-plugin-android-permissions@0.10.0
 cordova plugin add https://github.com/alongubkin/audiotoggle.git
 cordova plugin add cordova-plugin-audioinput
+```
